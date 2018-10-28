@@ -3,12 +3,13 @@ import { ElementRef, OnInit, Directive, HostListener } from "@angular/core";
 @Directive({
     selector: '[appBasicHighlight]'
 })
+
+//This is an Attribute Directive
 export class BasicHightlightDirective implements OnInit{
 
     constructor(private elementRef: ElementRef) {
-
     }
-    
+
     ngOnInit() {
         
     }

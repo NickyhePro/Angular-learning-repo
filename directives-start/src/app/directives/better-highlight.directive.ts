@@ -3,6 +3,8 @@ import { Directive, OnInit, Renderer2, ElementRef, HostListener, HostBinding, In
 @Directive({
   selector: '[appBetterHighlight]'
 })
+
+//This is an Attribute Directive
 export class BetterHighlightDirective implements OnInit{
 
   @Input() defaultColor: string = 'transparent';

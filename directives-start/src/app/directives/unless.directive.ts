@@ -4,6 +4,7 @@ import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
   selector: '[appUnless]'
 })
 
+// This is a Structural Directive
 export class UnlessDirective {
 
   //A setter property
